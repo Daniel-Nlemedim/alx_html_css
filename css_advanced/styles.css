@@ -1,0 +1,222 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.logo {
+  margin-left: 200px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 200px;
+}
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.first-section {
+  background: url("images/Object.png") center/cover;
+}
+.hero-title {
+  text-align: center;
+  padding-top: 200px;
+  font-family: sans-serif;
+  font-size: 130px; /* Large text size */
+  font-weight: 900; /* Extra bold */
+  color: white; /* White text */
+  letter-spacing: 2px; /* Wider spacing between letters */
+  margin: 0;
+  line-height: 1.2;
+}
+.hero-span {
+  color: white;
+  font-weight: 900;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 6.5rem; /* space between spans */
+  margin: 1rem 0;
+  font-size: 10px; /* Adjusted font size for spans */
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.reg-btn {
+  border-radius: 30px;
+  padding: 15px 30px;
+  background-color: rgb(194, 113, 255);
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.pros-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    margin-top: 250px;
+    font-family: 'Sans Pro', sans-serif;
+    letter-spacing: 3px;
+}
+.highlight {
+    color: rgb(194, 113, 255);
+    font-weight: 700;
+}
+.pros-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    padding: 40px;
+}
+h3{
+    color: white;
+    font-size: 24px;
+}
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 300px; /* Limit width for better readability */
+}
+.second-section {
+    background-color: rgb(194, 113, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex:auto
+}
+blockquote{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the blockquote */
+    padding: 10px;
+}
+.third-section{
+    display: flex;
+    justify-content: center;
+    padding-top:60px;
+}
+h2{
+    text-align: center;
+    padding-top: 70px;
+}
+.third-section-h3{
+    color: black;
+}
+h4{
+ color: rgb(194, 113, 255);
+}
+.third-section-p{
+    color: rgb(138, 134, 134);
+}
+.time-p{
+    color:rgb(194, 113, 255) ;
+
+}
+.review-div{
+    display: flex;
+}
+.mini-photo{
+    height: auto;
+    width: 15%;
+    padding-right:15px ;
+}
+.rating-div{
+    display: flex;
+    padding: 20px;
+    color: rgb(194, 113, 255);
+
+}
+.star-div{
+    display: flex;
+    padding-bottom: 110px;
+}
+.fourth-section{
+    background-color: rgb(7, 22, 41);
+    text-align: center;
+}
+.membership-h2{
+    color: white;
+    padding-top: 70px;
+    font-size: 30px;
+    font: 'Sans Pro', sans-serif;
+    font-weight: 100;
+}
+.membership-div{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.membership-btn-div{
+  padding-bottom: 50px;
+}
+.faq-container{
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+    max-width: 1000px;
+    margin: 0 auto;
+  padding: 100px;
+    
+}
+.FAQ-H2{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  color: rgb(7, 22, 41);
+  font-family: 'sans-pro', sans-serif;
+}
+.FAQ-H3{
+  color:  rgb(7, 22, 41);
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.footer{
+    background-color: rgb(7, 22, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px;
+}
+.logo-img{
+  height: 30px;
+  margin-right: 10px;
+}
+.footer-icons{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  gap: 20px;
+
+}
+.footer-p{
+  background-color: rgb(7, 22, 41);
+  padding: 40px;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
