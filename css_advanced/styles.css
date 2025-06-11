@@ -200,7 +200,7 @@ h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 120px;
+    padding: 80px 400px;
 }
 .logo-img{
   height: 30px;
@@ -213,10 +213,11 @@ h4{
   gap: 20px;
 
 }
-.footer-p{
-  background-color: rgb(7, 22, 41);
+.copyright{
+  background-color: rgb(7, 22, 41);;
   padding: 40px;
-  color: black;
   font-size: 16px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
