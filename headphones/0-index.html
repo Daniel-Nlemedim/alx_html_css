@@ -15,8 +15,15 @@
     <div class="container1">
       <header>
         <nav class="navbar">
-          <img src="/headphones/images/logo_headphones.png" alt="logo" />
-          <ul class="nav-links">
+          <div class="navbar-header">
+            <img src="/headphones/images/logo_headphones.png" alt="logo" />
+            <div class="hamburger-menu" id="hamburger-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <ul class="nav-links" id="nav-links">
             <li class="active"><a href="#">What we do</a></li>
             <li class="active"><a href="#">Our results</a></li>
             <li class="active"><a href="#">Contact us</a></li>
@@ -155,7 +162,7 @@
 
     <div class="footer navbar">
              <img src="/headphones/images/logo_headphones.png" alt="logo" />
-            <ul class="nav-links">
+            <ul class="footer-links">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -164,8 +171,9 @@
     </div>
     <div>
         <p class="footer-text">
-            &copy; headphones 2025
+            &copy; headphones <span class="current-year">2024</span>
         </p>
     </div>
+    <script src="8-script.js"></script>
   </body>
 </html>
